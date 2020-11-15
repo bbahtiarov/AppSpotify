@@ -11,6 +11,10 @@
         <item name="textInputStyle">@style/EditTextStyle</item>
     </style>
 
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_image</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
 
     <style name="EditTextStyle" parent="Widget.Design.TextInputLayout">
         <item name="backgroundTint">@android:color/white</item>

@@ -3,6 +3,8 @@ package com.example.appspotify.presentation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.media.session.PlaybackStateCompat
+import android.text.SpannableString
+import android.text.SpannableStringBuilder
 import androidx.activity.viewModels
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
@@ -42,6 +44,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTheme(R.style.AppTheme)
         setContentView(R.layout.activity_main)
 
         mToolbar = toolbarMain
@@ -160,4 +163,5 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
+
 }
